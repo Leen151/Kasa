@@ -1,8 +1,11 @@
 import React from 'react'
+import { CardContainer } from '../../components/cardContainer/CardContainer'
 
 
 export const Home = () => {
   return (
-    <div>home</div>
+    <main>
+      <CardContainer />
+    </main>    
   )
 }
