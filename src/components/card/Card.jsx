@@ -1,7 +1,11 @@
 import React from 'react'
+import './card.scss'
 
 export const Card = ({logement}) => {
   return (
-    <div>{logement.title}</div>
+    <article className="logement-card">
+      <img src={logement.cover} alt={logement.title} className="card-cover"/>
+      <h3 className="card-title">{logement.title}</h3>
+    </article>
   )
 }

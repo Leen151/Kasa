@@ -5,8 +5,8 @@ import LogoWhite from '../../assets/logo_white.webp'
 export const Footer = () => {
   return (
     <footer>
-      <img src={LogoWhite} alt="logo Kasa"/>
-      <p> © 2020 Kasa. All rights reserved </p>
+      <img src={LogoWhite} alt="logo Kasa" className="logo-footer"/>
+      <p className="copyright"> © 2020 Kasa. All rights reserved </p>
       
     </footer>
   )

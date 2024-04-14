@@ -1,7 +1,10 @@
 import React from 'react'
+import { Banner} from '../../components/banner/Banner'
 
 export const AboutPage = () => {
   return (
-    <div>A propos</div>
+    <main>
+      <Banner pageTag="About"/>
+    </main>
   )
 }

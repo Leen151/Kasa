@@ -6,10 +6,10 @@ import { NavLink } from 'react-router-dom'
 export const Header = () => {
   return (
     <header>
-      <img src={Logo} alt="logo Kasa" />
+      <img src={Logo} alt="logo Kasa" className="logo-header" />
       <nav>
-        <NavLink to="/"> Accueil </NavLink>
-        <NavLink to="/about"> A Propos </NavLink>
+        <NavLink to="/">Accueil</NavLink>
+        <NavLink to="/about">A Propos</NavLink>
       </nav>
 
     </header>

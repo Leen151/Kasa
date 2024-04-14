@@ -1,0 +1,21 @@
+.error-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    margin: 90px 0;
+
+    p{
+        color: var(--primary-color);
+    }
+
+    .error-number{
+        font-size: 248px;
+        font-weight: 700;
+    }
+
+    .error-text{
+        font-size: 36px;
+        font-weight: 500;
+    }
+}
