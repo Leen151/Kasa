@@ -136,4 +136,15 @@ q:after {
 
 body{
   font-family: var(--primary-font);
+  height: 100vh;
+
+  #root{
+    max-width: 1440px;
+    margin: auto;
+
+    header, main{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
 }
