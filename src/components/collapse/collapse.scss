@@ -1,20 +1,56 @@
 .collapse{
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
     .collapse-title{
         background-color: var(--primary-color);
         color: var(--tertiary-color);
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px 15px;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+        z-index: 2;
+
     }
 
     .collapse-text {
         display: none;
-        margin: 10px 20px;
+        margin: 15px 20px;
+        font-size: 20px;
+        line-height: 150%;
 
         &.active{
             display: block;
+            animation: textDown 0.7s ease;
         }
     }
+
+    .chevron {
+        transition: transform 0.5s ease;
+        
+        &.active {
+        transform: rotate(180deg); 
+        }
+    }
+    
+}
+
+@keyframes textDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-60px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
