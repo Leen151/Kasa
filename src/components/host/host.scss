@@ -1,0 +1,25 @@
+.logement-host{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    .host-name{
+        color: var(--primary-color);
+        font-size: 18px;
+        font-weight: 500;
+        text-align: end;
+
+        margin-right: 10px;
+
+        p{
+            line-height: 140%;
+        }
+    }
+
+    .host-picture{
+        height: 64px;
+        width: 64px;
+        object-fit: cover;
+        border-radius: 32px;
+    }
+}

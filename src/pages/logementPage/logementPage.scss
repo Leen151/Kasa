@@ -1,0 +1,43 @@
+.logement-page{
+
+    .logement-informations{
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        column-gap: 50px;
+
+        .logement-title{
+            color:var(--primary-color);
+            font-size: 36px;
+            font-weight: 500; 
+            padding: 10px 0;
+            line-height: 120%;
+        }
+    
+        .logement-location{
+            color: var(--secondary-color);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500; 
+            margin-bottom: 20px;
+        }
+
+        .logement-additional-information{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+
+            justify-content: space-between;            
+        }
+    }
+
+    .logement-details{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 75px;
+
+        .collapse{
+            margin-bottom: 0;
+        }
+    }
+}

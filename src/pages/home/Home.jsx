@@ -5,9 +5,11 @@ import { Banner} from '../../components/banner/Banner'
 
 export const Home = () => {
   return (
-    <main>
+    <main className="home-page">
+
       <Banner pageTag="Home"/>
       <CardContainer />
+      
     </main>    
   )
 }

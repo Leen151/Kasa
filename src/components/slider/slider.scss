@@ -1,0 +1,41 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 30px;
+  
+    .slide {
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  
+    .arrow-back,
+    .arrow-forward,
+    .slide-number {
+      position: absolute;
+      cursor: pointer;
+      z-index: 2;
+    }
+  
+    .arrow-back {
+      left: 20px;
+    }
+  
+    .arrow-forward {
+      right: 20px;
+    }
+  
+    .slide-number {
+      color: white;
+      bottom: 25px;
+      font-size: 24px;
+      height: fit-content;
+    }
+  }
