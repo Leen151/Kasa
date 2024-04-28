@@ -1,6 +1,6 @@
-import React from 'react'
-import './footer.scss'
-import LogoWhite from '../../assets/logo_white.webp'
+import React from "react";
+import "./footer.scss";
+import LogoWhite from "../../assets/logo_white.webp";
 
 export const Footer = () => {
   return (
@@ -9,5 +9,5 @@ export const Footer = () => {
       <p className="copyright"> © 2020 Kasa. All rights reserved </p>
       
     </footer>
-  )
-}
+  );
+};

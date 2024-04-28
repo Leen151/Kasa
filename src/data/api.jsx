@@ -1,16 +1,16 @@
-import logements from './logements.json'
-import about from './about.json'
+import logements from "./logements.json";
+import about from "./about.json";
 
 function getLogements(){
-    return logements;
+  return logements;
 }
 
 function getLogementById(id){
-    return logements.find(logement => logement.id === id);
+  return logements.find(logement => logement.id === id);
 }
 
 function getDatasAbout(){
-    return about;
+  return about;
 }
 
-export {getLogements, getLogementById, getDatasAbout}
+export {getLogements, getLogementById, getDatasAbout};

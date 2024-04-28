@@ -1,5 +1,5 @@
-import React from 'react'
-import './card.scss'
+import React from "react";
+import "./card.scss";
 
 export const Card = ({logement}) => {
   return (
@@ -7,5 +7,5 @@ export const Card = ({logement}) => {
       <img src={logement.cover} alt={logement.title} className="card-cover"/>
       <h3 className="card-title">{logement.title}</h3>
     </article>
-  )
-}
+  );
+};

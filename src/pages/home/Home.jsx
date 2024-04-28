@@ -1,6 +1,6 @@
-import React from 'react'
-import { CardContainer } from '../../components/cardContainer/CardContainer'
-import { Banner} from '../../components/banner/Banner'
+import React from "react";
+import { CardContainer } from "../../components/cardContainer/CardContainer";
+import { Banner} from "../../components/banner/Banner";
 
 
 export const Home = () => {
@@ -11,5 +11,5 @@ export const Home = () => {
       <CardContainer />
       
     </main>    
-  )
-}
+  );
+};

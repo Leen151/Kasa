@@ -1,9 +1,9 @@
-import React from 'react'
-import './aboutPage.scss'
-import { Banner} from '../../components/banner/Banner'
-import { Collapse } from '../../components/collapse/Collapse'
+import React from "react";
+import "./aboutPage.scss";
+import { Banner} from "../../components/banner/Banner";
+import { Collapse } from "../../components/collapse/Collapse";
 
-import { getDatasAbout } from '../../data/api'
+import { getDatasAbout } from "../../data/api";
 
 export const AboutPage = () => {
   const dataAbout = getDatasAbout();
@@ -20,5 +20,5 @@ export const AboutPage = () => {
       </div>
 
     </main>
-  )
-}
+  );
+};

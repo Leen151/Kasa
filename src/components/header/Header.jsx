@@ -1,7 +1,7 @@
-import React from 'react'
-import Logo from '../../assets/logo_red.webp'
-import './header.scss'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import Logo from "../../assets/logo_red.webp";
+import "./header.scss";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -13,5 +13,5 @@ export const Header = () => {
       </nav>
 
     </header>
-  )
-}
+  );
+};

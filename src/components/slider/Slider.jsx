@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import './slider.scss'
-import ArrowForward from '../../assets/chevron-right-solid.svg'
-import ArrowBack from '../../assets/chevron-left-solid.svg'
+import React, { useState } from "react";
+import "./slider.scss";
+import ArrowForward from "../../assets/chevron-right-solid.svg";
+import ArrowBack from "../../assets/chevron-left-solid.svg";
 
 
 export const Slider = ({ pictures }) => {
