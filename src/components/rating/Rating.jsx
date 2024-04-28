@@ -7,7 +7,7 @@ export const Rating = ({rating}) => {
 
   const rate = [];
   for (let i = 0; i < 5; i++) {
-    rate.push(i < rating ? <img key={i} src={StarFull} alt="Star Full" /> : <img key={i} src={StarEmpty} alt="Star Empty" />);
+    rate.push(i < rating ? <img key={i} src={StarFull} alt="Star Full" className="star"/> : <img key={i} src={StarEmpty} alt="Star Empty" className="star"/>);
   }
   console.log(rate)
 

@@ -9,4 +9,8 @@ function getLogementById(id){
     return logements.find(logement => logement.id === id);
 }
 
-export {getLogements, getLogementById}
+function getDatasAbout(){
+    return about;
+}
+
+export {getLogements, getLogementById, getDatasAbout}

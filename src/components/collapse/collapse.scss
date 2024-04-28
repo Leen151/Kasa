@@ -1,5 +1,4 @@
 .collapse{
-    margin-bottom: 50px;
 
     .collapse-title{
         background-color: var(--primary-color);
@@ -16,6 +15,9 @@
         position: relative;
         z-index: 2;
 
+        @media (max-width: 850px) {
+            font-size: 13px;
+        }
     }
 
     .collapse-text {
@@ -28,6 +30,10 @@
             display: block;
             animation: textDown 0.7s ease;
         }
+
+        @media (max-width: 850px) {
+            font-size: 13px;
+        }
     }
 
     .chevron {
@@ -36,6 +42,15 @@
         &.active {
         transform: rotate(180deg); 
         }
+
+        @media (max-width: 850px) {
+            height: 13px;
+            width: 13px;
+        }
+    }
+
+    @media (max-width: 850px) {
+        margin-bottom: 0;
     }
     
 }

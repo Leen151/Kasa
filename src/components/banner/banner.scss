@@ -6,7 +6,6 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 43px;
 
     &::before {
@@ -29,11 +28,24 @@
         z-index: 3;
         position: absolute;
         color: var(--tertiary-color);
-        top: 0;
+        top: 50%;
+        translate: 0 -50%;
         font-size: 48px;
         font-weight: 700;
-        height: 100%;
-        line-height:225px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+
+        @media (max-width: 850px){
+            font-size: 24px;
+            margin: 0 16px;
+            text-shadow: none;
+        }
+    }
+
+    @media (max-width: 850px){
+        height: 111px;
+        margin-bottom: 22px;
+        justify-content: start;
+        border-radius: 10px;        
     }
 }
 

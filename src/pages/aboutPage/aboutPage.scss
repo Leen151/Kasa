@@ -1,4 +1,13 @@
 .about-collapse{
     margin-right: 50px;
     margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media (max-width: 850px) {
+        margin: 0;
+        gap: 20px;
+    }
 }

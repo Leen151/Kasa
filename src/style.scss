@@ -126,7 +126,6 @@ q:after {
 }
 
 /*Style global*/
-
 :root {
   --primary-color : #FF6060;
   --secondary-color : black;
@@ -145,6 +144,11 @@ body{
     header, main{
       margin-left: 100px;
       margin-right: 100px;
+
+      @media (max-width: 1024px) {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
   }
 }

@@ -10,16 +10,30 @@ header{
         text-decoration: none;
         color: black;
         margin-left: 50px;
+
+        @media (max-width: 850px){
+            font-size: 16px;
+            margin-left: 26px;
+        }
     }
     
     .active{
-        // color: var(--primary-color);
         text-decoration: underline;
         text-decoration-skip-ink: none;
     }
-    .logo{
+    
+    .logo-header{
         height: 68px;
         width: auto;
+
+        @media (max-width: 850px){
+            height: 47px;
+            width: auto;
+        }
+    }
+
+    @media (max-width: 850px){
+        margin: 20px 20px 27px 20px;
     }
 }
 

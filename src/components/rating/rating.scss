@@ -2,4 +2,13 @@
     width: 200px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 850px) {
+        width: 110px;
+
+        .star{
+            height: 18px;
+            width: 18px;
+        }
+    }
 }

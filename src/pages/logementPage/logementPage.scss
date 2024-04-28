@@ -11,6 +11,10 @@
             font-weight: 500; 
             padding: 10px 0;
             line-height: 120%;
+
+            @media (max-width: 850px) {
+                font-size: 18px;
+            }
         }
     
         .logement-location{
@@ -19,6 +23,11 @@
             font-style: normal;
             font-weight: 500; 
             margin-bottom: 20px;
+
+            @media (max-width: 850px) {
+                font-size: 14px;
+                margin-bottom: 12px;
+            }
         }
 
         .logement-additional-information{
@@ -26,7 +35,19 @@
             flex-direction: column;
             align-items: end;
 
-            justify-content: space-between;            
+            justify-content: space-between; 
+            
+            @media (max-width: 850px) {
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 15px;
+            }
+        }
+
+        @media (max-width: 850px) {
+            display: flex;
+            flex-direction: column;
         }
     }
 
@@ -38,6 +59,12 @@
 
         .collapse{
             margin-bottom: 0;
+        }
+
+        @media (max-width: 850px) {
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 15px;
         }
     }
 }

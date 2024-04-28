@@ -1,6 +1,7 @@
 import React from 'react';
-import './logementPage.scss'
 import { useParams } from 'react-router-dom';
+import './logementPage.scss'
+import { getLogementById } from '../../data/api';
 import { ErrorPage } from '../errorPage/ErrorPage'
 import { Collapse } from '../../components/collapse/Collapse';
 import { Slider } from '../../components/slider/Slider';
@@ -8,7 +9,6 @@ import { Tags } from '../../components/tags/Tags';
 import { Rating } from '../../components/rating/Rating';
 import { Host } from '../../components/host/Host';
 
-import { getLogementById } from '../../data/api';
 
 export const LogementPage =  () => {
 	const { id } = useParams();

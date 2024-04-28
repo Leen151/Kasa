@@ -2,9 +2,12 @@ import React from 'react'
 import './aboutPage.scss'
 import { Banner} from '../../components/banner/Banner'
 import { Collapse } from '../../components/collapse/Collapse'
-import dataAbout from '../../data/about.json'
+
+import { getDatasAbout } from '../../data/api'
 
 export const AboutPage = () => {
+  const dataAbout = getDatasAbout();
+
   return (
     <main className="about-page">
       

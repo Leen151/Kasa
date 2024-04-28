@@ -32,6 +32,10 @@
         font-weight: 700;
         line-height: 142.6%;
     }
+
+    @media (max-width: 850px) {
+        height: 250px;
+    }
 }
 
 

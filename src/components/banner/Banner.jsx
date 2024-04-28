@@ -20,7 +20,7 @@ export const Banner = ({pageTag}) => {
 
   return (
     <div className={className}>
-        <img src={src}/>
+        <img src={src} alt=""/>
         {textBanner && <p>{textBanner}</p>}
     </div>
   )
